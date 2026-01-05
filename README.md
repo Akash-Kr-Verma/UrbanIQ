@@ -1,29 +1,38 @@
-# UrbanIQ
+# UrbanIQ: AI-Powered Smart City Risk Platform
 
-AI-Driven Smart Urban Sustainability & Disaster Mitigation Platform
+Urban disasters are no longer rare—floods, heatwaves, and air pollution are hitting cities faster and harder than ever. **UrbanIQ** is an AI-driven platform that predicts environmental risks and turns complex data into actionable insights for proactive urban planning.
 
-Urban areas are increasingly vulnerable to climate-induced disasters such as floods, heatwaves, and air pollution, threatening public safety, economic stability, and sustainable development. Traditional urban management systems are often reactive and fragmented, lacking predictive intelligence. This project presents an AI-driven platform to forecast environmental risks and assist authorities in proactive mitigation planning.
+---
 
-Key Features
+## Why It Matters
+- **Stay Ahead of Disasters:** Predict floods, heatwaves, and pollution events before they strike.  
+- **Data-Driven Decisions:** Integrates climate records, urban statistics, demographics, and simulated real-time streams.  
+- **Actionable Insights:** Risk alerts, priority zones, and mitigation strategies delivered via an interactive dashboard.  
+- **Transparent AI:** Explainable predictions highlight the key factors behind every risk assessment.  
 
-Predictive Risk Assessment: Machine learning models (LSTM, Random Forest, XGBoost) forecast disaster risk indicators.
+---
 
-Multi-Source Data Integration: Combines historical climate, urban statistics, demographic data, and synthetic real-time streams.
+## How It Works
+1. **Collect & Prep Data:** Clean, normalize, and align multi-source datasets, using synthetic streams to ensure privacy.  
+2. **Predict & Analyze:** Time-series and graph-based models forecast disaster risks and capture spatial dependencies.  
+3. **Decision Intelligence:** Rule-based and ML-assisted logic transforms predictions into mitigation actions.  
+4. **Visualize & Act:** Interactive dashboards communicate insights to city authorities for rapid, informed decisions.  
 
-Decision Intelligence: Converts predictions into actionable insights, including risk alerts, vulnerability maps, and mitigation recommendations.
+---
 
-Explainable AI: Interprets model outputs to highlight key risk factors and improve trust.
+## Impact
+Aligned with **UN SDG 11 (Sustainable Cities & Communities)** and **SDG 13 (Climate Action)**, UrbanSentinel empowers cities to be **smarter, safer, and more resilient**.
 
-Interactive Dashboard: Visualizes predictions and mitigation strategies for urban planners.
+---
 
-Scalable Architecture: Modular layers allow easy expansion and maintenance.
+## Tech Stack
+- Python, Pandas, NumPy  
+- Scikit-learn, XGBoost, TensorFlow / PyTorch  
+- Dash / Streamlit / Plotly for interactive dashboards  
+- Graph-based spatial analysis libraries (e.g., NetworkX, GeoPandas)
 
-Methodology
+---
 
-Data Collection & Preprocessing: Public datasets are cleaned, normalized, aligned temporally, and aggregated spatially. Sensitive real-time data is replaced with synthetic streams.
+## License
+MIT License
 
-Predictive Modeling: Time-series forecasting and graph-based spatial analysis capture temporal and inter-area dependencies for accurate disaster prediction.
-
-Decision Layer: Risk scores are processed through rule-based and ML-assisted logic to generate mitigation strategies and priority zones.
-
-Visualization: Interactive dashboards communicate actionable insights for proactive urban planning.
